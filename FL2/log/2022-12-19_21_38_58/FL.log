@@ -1,0 +1,12 @@
+[INFO](2022/12/19/ 09:39:21 PM) 
+[WELCOME] Unfolding configurations...!
+[INFO](2022/12/19/ 09:39:21 PM) {'global_config': {'seed': 5959, 'device': 'cpu', 'is_mp': True}}
+[INFO](2022/12/19/ 09:39:21 PM) {'data_config': {'data_path': './data/', 'dataset_name': 'MNIST', 'num_shards': 200, 'iid': False}}
+[INFO](2022/12/19/ 09:39:21 PM) {'fed_config': {'C': 0.1, 'K': 100, 'R': 500, 'E': 10, 'B': 10, 'criterion': 'torch.nn.CrossEntropyLoss', 'optimizer': 'torch.optim.SGD'}}
+[INFO](2022/12/19/ 09:39:21 PM) {'optim_config': {'lr': 0.01, 'momentum': 0.9}}
+[INFO](2022/12/19/ 09:39:21 PM) {'init_config': {'init_type': 'xavier', 'init_gain': 1.0, 'gpu_ids': [0, 1, 2]}}
+[INFO](2022/12/19/ 09:39:21 PM) {'model_config': {'name': 'CNN', 'in_channels': 1, 'hidden_channels': 32, 'num_hiddens': 512, 'num_classes': 10}}
+[INFO](2022/12/19/ 09:39:21 PM) {'log_config': {'log_path': './log\\2022-12-19_21_38_58', 'log_name': 'FL.log', 'tb_port': 5252, 'tb_host': '0.0.0.0'}}
+[INFO](2022/12/19/ 09:39:21 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2022/12/19/ 09:39:29 PM) [Round: 0000] ...successfully created all 100 clients!
+[INFO](2022/12/19/ 09:39:30 PM) [Round: 0000] ...successfully finished setup of all 100 clients!
